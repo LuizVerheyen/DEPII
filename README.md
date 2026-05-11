@@ -245,7 +245,7 @@ Maak een `.env` bestand aan in de root van het project:
 DB_SERVER=127.0.0.1,1433
 DB_NAME=DEPI
 DB_DRIVER=ODBC Driver 17 for SQL Server
-DB_USER=sa
+DB_USER=DepUser2526
 databasePWD=your_password
 groq_API=your_groq_api_key
 ```
