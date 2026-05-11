@@ -1,4 +1,4 @@
-# Data Engineering Project I 2025-2026
+# Data Engineering Project 2025-2026
 
 ## Groepsleden
 
