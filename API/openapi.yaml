@@ -1,0 +1,246 @@
+openapi: 3.0.3
+info:
+  title: DEPI Data Warehouse REST API
+  version: "1.0.0"
+  description: |
+    REST-interface bovenop de DEPI data warehouse (SQL Server).
+    Alle queries achter deze operaties zijn geïmplementeerd als
+    stored procedures (zie `API/sql/stored_procedures.sql`).
+  contact:
+    name: DEP-team 09 (HOGENT)
+
+servers:
+  - url: /api/v1
+    description: Lokaal of VM-instantie
+
+tags:
+  - name: System
+    description: Health, metrics, en DWH-onderhoud
+  - name: Counting Points
+    description: Telpalen en hun fietstellingen
+  - name: Weather Stations
+    description: Weerstations en meteo-data
+  - name: Blue Bike
+    description: Blue Bike-locaties en beschikbaarheid
+
+paths:
+
+  /health:
+    get:
+      tags: [System]
+      summary: Health-check
+      responses:
+        "200":
+          description: API en DB zijn beschikbaar
+        "503":
+          description: API draait, DB niet bereikbaar
+
+  /metrics:
+    get:
+      tags: [System]
+      summary: Per-endpoint metrics (count, avg/max responstijd)
+      responses:
+        "200":
+          description: Snapshot van metrics
+    delete:
+      tags: [System]
+      summary: Metrics resetten
+      responses:
+        "200":
+          description: Reset uitgevoerd
+
+  /dwh/refresh:
+    post:
+      tags: [System]
+      summary: Forceer een volledige update van de DWH
+      description: |
+        Start de pipeline asynchroon. Gebruik het teruggegeven `job_id` om
+        de status op te vragen via `GET /dwh/refresh/{job_id}`.
+      responses:
+        "202":
+          description: Refresh gestart
+        "409":
+          description: Er loopt al een refresh
+    get:
+      tags: [System]
+      summary: Lijst van bekende refresh-jobs
+      responses:
+        "200":
+          description: OK
+
+  /dwh/refresh/{job_id}:
+    get:
+      tags: [System]
+      summary: Status van één refresh-job
+      parameters:
+        - in: path
+          name: job_id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: OK
+        "404":
+          description: Onbekende job-id
+
+  /counting-points:
+    get:
+      tags: [Counting Points]
+      summary: Lijst van alle telpalen
+      responses:
+        "200":
+          description: Lijst van telpalen
+
+  /counting-points/{counting_point_id}:
+    get:
+      tags: [Counting Points]
+      summary: Detail van één telpaal
+      parameters:
+        - in: path
+          name: counting_point_id
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: Detail
+        "404":
+          description: Niet gevonden
+
+  /counting-points/{counting_point_id}/totals:
+    get:
+      tags: [Counting Points]
+      summary: Totaal aantal fietsers (sinds start van periode of op een dag)
+      description: |
+        Geef ofwel `period` ofwel `date` op (niet beide).
+        - `period` = day | week | month | year (sinds start daarvan tot nu)
+        - `date`   = YYYY-MM-DD (verplicht in het verleden)
+      parameters:
+        - in: path
+          name: counting_point_id
+          required: true
+          schema: { type: integer }
+        - in: query
+          name: period
+          required: false
+          schema:
+            type: string
+            enum: [day, week, month, year]
+        - in: query
+          name: date
+          required: false
+          schema:
+            type: string
+            format: date
+      responses:
+        "200":
+          description: Totalen
+        "400":
+          description: Ongeldige invoer
+        "404":
+          description: Telpaal niet gevonden
+
+  /counting-points/top-busiest:
+    get:
+      tags: [Counting Points]
+      summary: Top N drukste telpalen op een gegeven datum (extra)
+      parameters:
+        - in: query
+          name: date
+          required: true
+          schema:
+            type: string
+            format: date
+        - in: query
+          name: top
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 1000
+            default: 10
+      responses:
+        "200":
+          description: Lijst gesorteerd op TotalCounts DESC
+        "400":
+          description: Ongeldige invoer
+
+  /weather-stations:
+    get:
+      tags: [Weather Stations]
+      summary: Lijst van alle weerstations
+      responses:
+        "200":
+          description: Lijst
+
+  /weather-stations/{station_id}:
+    get:
+      tags: [Weather Stations]
+      summary: Detail van één weerstation (lookup op WeatherStationID)
+      parameters:
+        - in: path
+          name: station_id
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: Detail
+        "404":
+          description: Niet gevonden
+
+  /weather-stations/{station_id}/wind:
+    get:
+      tags: [Weather Stations]
+      summary: Gemiddelde windsnelheid (10m) en hoogste windvlaag op een dag
+      description: |
+        `station_id` is de WeatherStationID (zelfde waarde die in
+        FactMeteo.WeatherStationKey voorkomt).
+      parameters:
+        - in: path
+          name: station_id
+          required: true
+          schema: { type: string }
+        - in: query
+          name: date
+          required: true
+          schema:
+            type: string
+            format: date
+      responses:
+        "200":
+          description: Wind-statistieken
+        "400":
+          description: Ongeldige datum
+        "404":
+          description: Weerstation niet gevonden
+
+  /blue-bike-stations:
+    get:
+      tags: [Blue Bike]
+      summary: Lijst van alle Blue Bike-locaties
+      responses:
+        "200":
+          description: Lijst
+
+  /blue-bike-stations/{station_key}:
+    get:
+      tags: [Blue Bike]
+      summary: Detail van één Blue Bike-locatie
+      parameters:
+        - in: path
+          name: station_key
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: Detail
+        "404":
+          description: Niet gevonden
+
+  /blue-bike-stations/availability/last-7-days:
+    get:
+      tags: [Blue Bike]
+      summary: Min/max beschikbare fietsen per locatie (laatste 7 dagen)
+      responses:
+        "200":
+          description: Lijst per locatie

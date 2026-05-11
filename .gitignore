@@ -1,0 +1,73 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets & Config
+.env
+.env.*
+config/secrets.yaml
+
+# Data (Negeert inhoud van data map, maar behoudt de map zelf indien gewenst)
+data/**
+
+# OS bestanden
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# VS Code / IDE (Vaak niet nodig in je boomstructuur)
+.vscode/
+.idea/
+*.swp
+.claude
+
+# Algemene build/temp mappen (Zorgt dat FileTree Pro niet vastloopt)
+node_modules/
+dist/
+build/
+out/
+target/
+*.tmp
+
+# Log-uitvoer (mappen worden bijgehouden via .gitkeep)
+logging/pipeline/*.log
+logging/pipeline/*.log.*
+logging/webapi/*.log
+logging/webapi/*.log.*
+
+# email json files zoals token en secret
+data_gathering/email_fietsvergoeding/*.json
+
+# Selenium data map (bevat browser profiel en cache)
+selenium_data/
+
+# Tijdelijke downloads
+temp_downloads/
+
+# Machine Learning modellen
+machine-learning/models/fietsers/*.pkl
+
+# Eindevaluatie (lokaal draaiboek, niet in repo)
+eindevaluatie/
+
+# Docker Compose (bevat credentials, staat enkel op de VM)
+docker-compose.yml
+
+# gmail
+token.json
+client_secret.json
+gmail_token.json
+*.ipynb_checkpoints
+
+data_gathering/e-mail_fietsvergoeding/token.json
+data_gathering/e-mail_fietsvergoeding/client_secret.json
+data_gathering/email_fietsvergoeding/gmail_token.json
+
+
+data_gathering/email_fietsvergoeding/client_secret.json

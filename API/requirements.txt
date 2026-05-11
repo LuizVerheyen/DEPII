@@ -1,0 +1,7 @@
+# API-specifieke requirements (komen bovenop de project-root requirements.txt)
+Flask>=3.0
+gunicorn>=21.2
+PyYAML>=6.0
+# Re-use van bestaande:
+#   pyodbc, python-dotenv, SQLAlchemy, requests
+# (zie root requirements.txt)

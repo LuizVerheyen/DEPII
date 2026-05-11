@@ -1,0 +1,405 @@
+python -m pytest tests/testsLeerkrachten -v -s --cache-clear
+====================================== test session starts =======================================
+platform win32 -- Python 3.12.8, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\ArneBogaert\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\ArneBogaert\Desktop\HoGent\2eBachelor\Sem2\Data Engineering Project\ProjectRepo\data-engineering-project-i-2025-2026-g09-1
+plugins: anyio-4.12.1, langsmith-0.7.1
+collected 140 items                                                                               
+
+tests/testsLeerkrachten/test_01_dim_date.py::test_DimDate[aantal rijen] PASSED
+tests/testsLeerkrachten/test_01_dim_date.py::test_DimDate[geen NULL in DateKey] PASSED
+tests/testsLeerkrachten/test_01_dim_date.py::test_DimDate[unieke waarden in DateKey] PASSED
+tests/testsLeerkrachten/test_01_dim_date.py::test_date_attributes[20200803-3-8-2020-Monday-maandag-August-augustus] PASSED
+tests/testsLeerkrachten/test_01_dim_date.py::test_date_attributes[20210406-6-4-2021-Tuesday-dinsdag-April-april] PASSED
+tests/testsLeerkrachten/test_01_dim_date.py::test_date_attributes[20220525-25-5-2022-Wednesday-woensdag-May-mei] PASSED
+tests/testsLeerkrachten/test_01_dim_date.py::test_date_attributes[20230622-22-6-2023-Thursday-donderdag-June-juni] PASSED
+tests/testsLeerkrachten/test_01_dim_date.py::test_date_attributes[20240712-12-7-2024-Friday-vrijdag-July-juli] PASSED
+tests/testsLeerkrachten/test_01_dim_date.py::test_date_attributes[20250920-20-9-2025-Saturday-zaterdag-September-september] PASSED
+tests/testsLeerkrachten/test_02_dim_time.py::test_DimTime[aantal rijen] PASSED
+tests/testsLeerkrachten/test_02_dim_time.py::test_DimTime[geen NULL in TimeKey] PASSED
+tests/testsLeerkrachten/test_02_dim_time.py::test_DimTime[unieke waarden in TimeKey] PASSED
+tests/testsLeerkrachten/test_02_dim_time.py::test_time_attributes[12-0-12] PASSED
+tests/testsLeerkrachten/test_02_dim_time.py::test_time_attributes[157-1-57] PASSED
+tests/testsLeerkrachten/test_02_dim_time.py::test_time_attributes[324-3-24] PASSED
+tests/testsLeerkrachten/test_02_dim_time.py::test_time_attributes[641-6-41] PASSED
+tests/testsLeerkrachten/test_02_dim_time.py::test_time_attributes[1110-11-10] PASSED
+tests/testsLeerkrachten/test_02_dim_time.py::test_time_attributes[1503-15-3] PASSED
+tests/testsLeerkrachten/test_02_dim_time.py::test_time_attributes[1637-16-37] PASSED
+tests/testsLeerkrachten/test_03_weatherstations.py::test_weatherstations[aantal rijen] PASSED
+tests/testsLeerkrachten/test_03_weatherstations.py::test_weatherstations[geen NULL in Name] PASSED 
+tests/testsLeerkrachten/test_03_weatherstations.py::test_weatherstations[geen lege waarden in Name]
+ PASSED
+tests/testsLeerkrachten/test_03_weatherstations.py::test_weatherstations[unieke waarden in Latitude] PASSED
+tests/testsLeerkrachten/test_03_weatherstations.py::test_weatherstations[unieke waarden in Longitude] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_fact_weatherstation[geen NULL in DateKey, WeatherStationKey] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_fact_weatherstation[unieke sleutel op DateKey, WeatherStationKey] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%BEITEM%-2192] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%BUZENOL%-2192]
+ PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%DE HAAN%-300] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%DIEPENBEEK%-2192] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%DOURBES%-2192]
+ PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%ERNAGE%-2192] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%HUMAIN%-2192] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%MELLE%-2192]PPASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%MONT RIGI%-2192] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%RETIE%-2192]PPASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%SINT-KATELIJNE-WAVER%-2192] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%STABROEK%-2192] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%UCCLE%-2192]PPASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_measurement_count[%ZEEBRUGGE%-2192] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_statistics[BEITEM] PASSED
+tests/testsLeerkrachten/test_04_factmeteo.py::test_weatherstation_statistics[ZEEBRUGGE] PASSED
+tests/testsLeerkrachten/test_05_dimtelpalen.py::test_countingpoints[aantal rijen] PASSED
+tests/testsLeerkrachten/test_05_dimtelpalen.py::test_countingpoints[geen NULL in CountingPointName]
+ PASSED
+tests/testsLeerkrachten/test_05_dimtelpalen.py::test_countingpoints[geen lege waarden in CountingPointName] PASSED
+tests/testsLeerkrachten/test_05_dimtelpalen.py::test_countingpoints[unieke waarden in CountingPointID] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_blue_bike_locaties[aantal rijen] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_blue_bike_locaties[geen NULL in DateKey, CountingPointID] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_blue_bike_locaties[geen lege waarden in DateKey, CountingPointID] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_blue_bike_locaties[unieke sleutel op DateKey, CountingPointID] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_locations_range[%Menenstraat (Zuid)%-46-1047] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_locations_range[%Desguinlei (Zuid)%-2-56517]
+ PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_locations_range[%Langerbruggestraat%-13-1234] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_locations_range[%Fietsen Door De Bomen H%-0-16682] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_locations_range[%Terminal Brussels Airport%-26-324] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_telpalen_tellingen_sum[%Fintele%-134070] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_telpalen_tellingen_sum[%Jaagpad Bovenschelde%-359952] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_telpalen_tellingen_sum[%Dudzeelse Steenweg (West)%-210686] PASSED
+tests/testsLeerkrachten/test_06_facttellingen.py::test_telpalen_tellingen_sum[%Lierseweg brug (Oost)%-494815] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_countingpoints_locaties[aantal rijen] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_countingpoints_locaties[geen NULL in s.StationName] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_countingpoints_locaties[geen lege waarden in s.StationName] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_countingpoints_locaties[unieke sleutel op s.Latitude, s.Longitude] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_countingpoints_locaties[unieke waarden in s.StationName] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_per_province[Antwerpen-22] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_per_province[West-Vlaanderen-18] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_per_province[Oost-Vlaanderen-36] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_per_province[Vlaams-Brabant-29] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_per_province[Limburg-11] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_per_province[Namen-1] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_per_province[Henegouwen-1] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_in_municipality[%Antwerpen%-5] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_in_municipality[%Ieper%-1] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_in_municipality[%Lokeren%-1] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_in_municipality[%Lanaken%-0] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_in_municipality[%Zeebrugge%-2] PASSED
+tests/testsLeerkrachten/test_07_dimtrainstations.py::test_trainstations_locations_count_in_municipality[Testelt-1] PASSED
+tests/testsLeerkrachten/test_08_dimdepartment.py::test_countingpoints_locaties[aantal rijen] PASSED
+tests/testsLeerkrachten/test_08_dimdepartment.py::test_countingpoints_locaties[geen NULL in DepartementName] PASSED
+tests/testsLeerkrachten/test_08_dimdepartment.py::test_countingpoints_locaties[geen lege waarden in DepartementName] PASSED
+tests/testsLeerkrachten/test_08_dimdepartment.py::test_countingpoints_locaties[unieke waarden in DepartementName] PASSED
+tests/testsLeerkrachten/test_09_dimemployee.py::test_DimEmployee[aantal rijen] PASSED
+tests/testsLeerkrachten/test_09_dimemployee.py::test_DimEmployee[geen NULL in StaffKey, StaffID, Campus, DepartementKey] PASSED
+tests/testsLeerkrachten/test_09_dimemployee.py::test_DimEmployee[geen lege waarden in Campus] PASSED
+tests/testsLeerkrachten/test_09_dimemployee.py::test_DimEmployee[unieke waarden in StaffKey] PASSED
+tests/testsLeerkrachten/test_09_dimemployee.py::test_DimEmployee[unieke waarden in StaffID] PASSED 
+tests/testsLeerkrachten/test_09_dimemployee.py::test_employee_keys_non_negative PASSED
+tests/testsLeerkrachten/test_10_factdepartment_headcount.py::test_FactDepartmentHeadcount[aantal rijen] PASSED
+tests/testsLeerkrachten/test_10_factdepartment_headcount.py::test_FactDepartmentHeadcount[geen NULL in DateKey, DepartementKey] PASSED
+tests/testsLeerkrachten/test_10_factdepartment_headcount.py::test_FactDepartmentHeadcount[geen lege waarden in DateKey, DepartementKey] PASSED
+tests/testsLeerkrachten/test_10_factdepartment_headcount.py::test_FactDepartmentHeadcount[unieke sleutel op DateKey, DepartementKey] PASSED
+tests/testsLeerkrachten/test_10_factdepartment_headcount.py::test_department_head_count_1 PASSED
+tests/testsLeerkrachten/test_10_factdepartment_headcount.py::test_department_head_count_2 PASSED
+tests/testsLeerkrachten/test_10_factdepartment_headcount.py::test_department_head_count_3 PASSED
+tests/testsLeerkrachten/test_11_fact_bike_kilometers_employees.py::test_factstaffcommute_checks[aantal rijen] PASSED
+tests/testsLeerkrachten/test_11_fact_bike_kilometers_employees.py::test_factstaffcommute_checks[geen NULL in DateKey, StaffKey] PASSED
+tests/testsLeerkrachten/test_11_fact_bike_kilometers_employees.py::test_factstaffcommute_checks[geen lege waarden in DateKey, StaffKey] PASSED
+tests/testsLeerkrachten/test_11_fact_bike_kilometers_employees.py::test_factstaffcommute_checks[unieke sleutel op StaffCommuteKey] PASSED
+tests/testsLeerkrachten/test_11_fact_bike_kilometers_employees.py::test_factstaffcommute_distance_sum[20240108] PASSED
+tests/testsLeerkrachten/test_11_fact_bike_kilometers_employees.py::test_factstaffcommute_distance_sum[20240304] PASSED
+tests/testsLeerkrachten/test_11_fact_bike_kilometers_employees.py::test_factstaffcommute_distance_sum[20240607] PASSED
+tests/testsLeerkrachten/test_11_fact_bike_kilometers_employees.py::test_factstaffcommute_distance_sum[20250219] PASSED
+tests/testsLeerkrachten/test_11_fact_bike_kilometers_employees.py::test_factstaffcommute_distance_sum[20250510] PASSED
+tests/testsLeerkrachten/test_11_fact_bike_kilometers_employees.py::test_factstaffcommute_distance_sum[20251112] PASSED
+tests/testsLeerkrachten/test_12_dimtransportmode.py::test_dimtransporttype_checks[aantal rijen] PASSED
+tests/testsLeerkrachten/test_12_dimtransportmode.py::test_dimtransporttype_checks[geen NULL in VehicleType] PASSED
+tests/testsLeerkrachten/test_12_dimtransportmode.py::test_dimtransporttype_checks[unieke waarden in VehicleType] PASSED
+tests/testsLeerkrachten/test_12_dimtransportmode.py::test_dimtransporttype_emission_values[Trein-0.02] PASSED
+tests/testsLeerkrachten/test_12_dimtransportmode.py::test_dimtransporttype_emission_values[Bus-0.03] PASSED
+tests/testsLeerkrachten/test_12_dimtransportmode.py::test_dimtransporttype_emission_values[Auto-0.15] PASSED
+tests/testsLeerkrachten/test_12_dimtransportmode.py::test_dimtransporttype_emission_values[Vliegtuig-700-0.2] PASSED
+tests/testsLeerkrachten/test_12_dimtransportmode.py::test_dimtransporttype_emission_values[Vliegtuig+700-0.3] PASSED
+tests/testsLeerkrachten/test_12_dimtransportmode.py::test_dimtransporttype_emission_values[Vliegtuig+2500-0.4] PASSED
+tests/testsLeerkrachten/test_12_dimtransportmode.py::test_dimtransporttype_emission_values[Fiets-0]
+ PASSED
+tests/testsLeerkrachten/test_12_dimtransportmode.py::test_dimtransporttype_emission_values[Boot-0] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_dimbluebikestation_checks[aantal rijen]
+ PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_dimbluebikestation_checks[geen NULL in LocationName] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_dimbluebikestation_checks[geen lege waarden in LocationName] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_dimbluebikestation_checks[unieke sleutel op Latitude, Longitude] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_dimbluebikestation_checks[unieke waarden in LocationName] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_per_province[Antwerpen-40] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_per_province[Oost-Vlaanderen-87] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_per_province[West-Vlaanderen-21] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_per_province[Limburg-21] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_per_province[Vlaams-Brabant-74] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_per_province[Luik-1] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_per_province[Henegouwen-1] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_in_zipcode[9000-3] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_in_zipcode[9051-1] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_in_zipcode[9800-2] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_in_zipcode[8500-2] PASSED
+tests/testsLeerkrachten/test_15_blue_bike_locaties.py::test_bluebike_locations_count_name_contains_station[%station%-131] PASSED
+tests/testsLeerkrachten/test_16_blue_bike_countings.py::test_factbluebike_checks[aantal rijen] PASSED
+tests/testsLeerkrachten/test_16_blue_bike_countings.py::test_factbluebike_checks[geen NULL in DateKey, TimeKey, BlueBikeStationKey] PASSED
+tests/testsLeerkrachten/test_16_blue_bike_countings.py::test_factbluebike_checks[geen lege waarden in DateKey, TimeKey, BlueBikeStationKey] PASSED
+tests/testsLeerkrachten/test_16_blue_bike_countings.py::test_factbluebike_checks[unieke sleutel op DateKey, TimeKey, BlueBikeStationKey] PASSED
+tests/testsLeerkrachten/test_16_blue_bike_countings.py::test_factbluebike_locations_range[%Oostende%-60-80] PASSED
+tests/testsLeerkrachten/test_16_blue_bike_countings.py::test_factbluebike_locations_range[%Deinze station%-80-115] PASSED
+tests/testsLeerkrachten/test_16_blue_bike_countings.py::test_factbluebike_locations_range[%Ieper%-5-10] PASSED
+tests/testsLeerkrachten/test_16_blue_bike_countings.py::test_factbluebike_locations_range[%Machelen%-2-15] PASSED
+======================================================================
+VALIDATIERAPPORT PER TABEL
+======================================================================
+
+Tabel: DimDate
+----------------------------------------------------------------------
+Geslaagd: 9
+Gefaald : 0
+Totaal   : 9
+  [OK] aantal rijen | verwacht == 2192 | gekregen 2192
+  [OK] geen NULL in DateKey | verwacht == 0 | gekregen 0
+  [OK] unieke waarden in DateKey | verwacht == 0 | gekregen 0
+  [OK] controle datum 20200803 | verwacht == 1 | gekregen 1
+  [OK] controle datum 20210406 | verwacht == 1 | gekregen 1
+  [OK] controle datum 20220525 | verwacht == 1 | gekregen 1
+  [OK] controle datum 20230622 | verwacht == 1 | gekregen 1
+  [OK] controle datum 20240712 | verwacht == 1 | gekregen 1
+  [OK] controle datum 20250920 | verwacht == 1 | gekregen 1
+
+Tabel: DimTime
+----------------------------------------------------------------------
+Geslaagd: 10
+Gefaald : 0
+Totaal   : 10
+  [OK] aantal rijen | verwacht == 1440 | gekregen 1440
+  [OK] geen NULL in TimeKey | verwacht == 0 | gekregen 0
+  [OK] unieke waarden in TimeKey | verwacht == 0 | gekregen 0
+  [OK] controle tijd 12 | verwacht == 1 | gekregen 1
+  [OK] controle tijd 157 | verwacht == 1 | gekregen 1
+  [OK] controle tijd 324 | verwacht == 1 | gekregen 1
+  [OK] controle tijd 641 | verwacht == 1 | gekregen 1
+  [OK] controle tijd 1110 | verwacht == 1 | gekregen 1
+  [OK] controle tijd 1503 | verwacht == 1 | gekregen 1
+  [OK] controle tijd 1637 | verwacht == 1 | gekregen 1
+
+Tabel: DimWeatherStation
+----------------------------------------------------------------------
+Geslaagd: 5
+Gefaald : 0
+Totaal   : 5
+  [OK] aantal rijen | verwacht == 14 | gekregen 14
+  [OK] geen NULL in Name | verwacht == 0 | gekregen 0
+  [OK] geen lege waarden in Name | verwacht == 0 | gekregen 0
+  [OK] unieke waarden in Latitude | verwacht == 0 | gekregen 0
+  [OK] unieke waarden in Longitude | verwacht == 0 | gekregen 0
+
+Tabel: FactMeteo
+----------------------------------------------------------------------
+Geslaagd: 30
+Gefaald : 0
+Totaal   : 30
+  [OK] geen NULL in DateKey, WeatherStationKey | verwacht == 0 | gekregen 0
+  [OK] unieke sleutel op DateKey, WeatherStationKey | verwacht == 0 | gekregen 0
+  [OK] aantal metingen voor weerstation %BEITEM% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %BUZENOL% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %DE HAAN% tussen 20200101 en 20251231 | verwacht == 300 | gekregen 300
+  [OK] aantal metingen voor weerstation %DIEPENBEEK% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %DOURBES% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %ERNAGE% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %HUMAIN% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %MELLE% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %MONT RIGI% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %RETIE% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %SINT-KATELIJNE-WAVER% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %STABROEK% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %UCCLE% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] aantal metingen voor weerstation %ZEEBRUGGE% tussen 20200101 en 20251231 | verwacht == 2192 | gekregen 2192
+  [OK] max gemiddelde temperatuur voor weerstation BEITEM | verwacht 28.6 ± 0.1 | gekregen 28.60   
+  [OK] minimum gemiddelde temperatuur voor weerstation BEITEM | verwacht -4.47 ± 0.1 | gekregen -4.47
+  [OK] maximum van min temperatuur voor weerstation BEITEM | verwacht 22.03 ± 0.1 | gekregen 22.03 
+  [OK] minimum van min temperatuur voor weerstation BEITEM | verwacht -8.38 ± 0.1 | gekregen -8.38 
+  [OK] minimum van max temperatuur voor weerstation BEITEM | verwacht -3.66 ± 0.1 | gekregen -3.66 
+  [OK] maximum van max temperatuur voor weerstation BEITEM | verwacht 38.47 ± 0.1 | gekregen 38.47 
+  [OK] gemiddelde neerslaghoeveelheid voor weerstation BEITEM | verwacht 2.10691605839416 ± 0.1 | gekregen 2.135571
+  [OK] max gemiddelde temperatuur voor weerstation ZEEBRUGGE | verwacht 28.55 ± 0.1 | gekregen 28.55
+  [OK] minimum gemiddelde temperatuur voor weerstation ZEEBRUGGE | verwacht -3.3 ± 0.1 | gekregen -3.30
+  [OK] maximum van min temperatuur voor weerstation ZEEBRUGGE | verwacht 22.99 ± 0.1 | gekregen 22.99
+  [OK] minimum van min temperatuur voor weerstation ZEEBRUGGE | verwacht -6.01 ± 0.1 | gekregen -6.01
+  [OK] minimum van max temperatuur voor weerstation ZEEBRUGGE | verwacht -2.5 ± 0.1 | gekregen -2.50
+  [OK] maximum van max temperatuur voor weerstation ZEEBRUGGE | verwacht 34.97 ± 0.1 | gekregen 34.97
+  [OK] gemiddelde neerslaghoeveelheid voor weerstation ZEEBRUGGE | verwacht 1.48340328467153 ± 0.1 | gekregen 1.468972
+
+Tabel: DimCountingPoint
+----------------------------------------------------------------------
+Geslaagd: 4
+Gefaald : 0
+Totaal   : 4
+  [OK] aantal rijen | verwacht == 356 | gekregen 356
+  [OK] geen NULL in CountingPointName | verwacht == 0 | gekregen 0
+  [OK] geen lege waarden in CountingPointName | verwacht == 0 | gekregen 0
+  [OK] unieke waarden in CountingPointID | verwacht == 0 | gekregen 0
+
+Tabel: FactCountings
+----------------------------------------------------------------------
+Geslaagd: 13
+Gefaald : 0
+Totaal   : 13
+  [OK] aantal rijen | verwacht > 0 | gekregen 472405
+  [OK] geen NULL in DateKey, CountingPointID | verwacht == 0 | gekregen 0
+  [OK] geen lege waarden in DateKey, CountingPointID | verwacht == 0 | gekregen 0
+  [OK] unieke sleutel op DateKey, CountingPointID | verwacht == 0 | gekregen 0
+  [OK] min en max getelde fietsers in %Menenstraat (Zuid)% | verwacht 46..1047 | gekregen 495      
+  [OK] min en max getelde fietsers in %Desguinlei (Zuid)% | verwacht 2..56517 | gekregen 1922      
+  [OK] min en max getelde fietsers in %Langerbruggestraat% | verwacht 13..1234 | gekregen 552      
+  [OK] min en max getelde fietsers in %Fietsen Door De Bomen H% | verwacht 0..16682 | gekregen 173 
+  [OK] min en max getelde fietsers in %Terminal Brussels Airport% | verwacht 26..324 | gekregen 163
+  [OK] aantal getelde fietsers voor telpaal %Fintele% tussen 20220101 en 20231231 | verwacht == 134070 | gekregen 134070
+  [OK] aantal getelde fietsers voor telpaal %Jaagpad Bovenschelde% tussen 20220101 en 20231231 | verwacht == 359952 | gekregen 359952
+  [OK] aantal getelde fietsers voor telpaal %Dudzeelse Steenweg (West)% tussen 20220101 en 20231231 | verwacht == 210686 | gekregen 210686
+  [OK] aantal getelde fietsers voor telpaal %Lierseweg brug (Oost)% tussen 20220101 en 20231231 | verwacht == 494815 | gekregen 494815
+
+Tabel: DimStation s JOIN DimLocation l ON s.LocationKey = l.LocationKey
+----------------------------------------------------------------------
+Geslaagd: 18
+Gefaald : 0
+Totaal   : 18
+  [OK] aantal rijen | verwacht == 125 | gekregen 125
+  [OK] geen NULL in s.StationName | verwacht == 0 | gekregen 0
+  [OK] geen lege waarden in s.StationName | verwacht == 0 | gekregen 0
+  [OK] unieke sleutel op s.Latitude, s.Longitude | verwacht == 0 | gekregen 0
+  [OK] unieke waarden in s.StationName | verwacht == 0 | gekregen 0
+  [OK] aantal records voor provincie Antwerpen | verwacht 22 ± 2 | gekregen 22
+  [OK] aantal records voor provincie West-Vlaanderen | verwacht 18 ± 2 | gekregen 19
+  [OK] aantal records voor provincie Oost-Vlaanderen | verwacht 36 ± 2 | gekregen 35
+  [OK] aantal records voor provincie Vlaams-Brabant | verwacht 29 ± 2 | gekregen 29
+  [OK] aantal records voor provincie Limburg | verwacht 11 ± 2 | gekregen 11
+  [OK] aantal records voor provincie Namen | verwacht 1 ± 2 | gekregen 1
+  [OK] aantal records voor provincie Henegouwen | verwacht 1 ± 2 | gekregen 1
+  [OK] aantal records voor treinstations in %Antwerpen% | verwacht == 5 | gekregen 5
+  [OK] aantal records voor treinstations in %Ieper% | verwacht == 1 | gekregen 1
+  [OK] aantal records voor treinstations in %Lokeren% | verwacht == 1 | gekregen 1
+  [OK] aantal records voor treinstations in %Lanaken% | verwacht == 0 | gekregen 0
+  [OK] aantal records voor treinstations in %Zeebrugge% | verwacht == 2 | gekregen 2
+  [OK] aantal records voor treinstations in Testelt | verwacht == 1 | gekregen 1
+
+Tabel: DimDepartement
+----------------------------------------------------------------------
+Geslaagd: 4
+Gefaald : 0
+Totaal   : 4
+  [OK] aantal rijen | verwacht == 40 | gekregen 40
+  [OK] geen NULL in DepartementName | verwacht == 0 | gekregen 0
+  [OK] geen lege waarden in DepartementName | verwacht == 0 | gekregen 0
+  [OK] unieke waarden in DepartementName | verwacht == 0 | gekregen 0
+
+Tabel: DimStaff
+----------------------------------------------------------------------
+Geslaagd: 6
+Gefaald : 0
+Totaal   : 6
+  [OK] aantal rijen | verwacht > 1 | gekregen 462
+  [OK] geen NULL in StaffKey, StaffID, Campus, DepartementKey | verwacht == 0 | gekregen 0
+  [OK] geen lege waarden in Campus | verwacht == 0 | gekregen 0
+  [OK] unieke waarden in StaffKey | verwacht == 0 | gekregen 0
+  [OK] unieke waarden in StaffID | verwacht == 0 | gekregen 0
+  [OK] geen negatieve sleutels in DimStaff | verwacht == 0 | gekregen 0
+
+Tabel: FactDepartement
+----------------------------------------------------------------------
+Geslaagd: 7
+Gefaald : 0
+Totaal   : 7
+  [OK] aantal rijen | verwacht > 0 | gekregen 1426
+  [OK] geen NULL in DateKey, DepartementKey | verwacht == 0 | gekregen 0
+  [OK] geen lege waarden in DateKey, DepartementKey | verwacht == 0 | gekregen 0
+  [OK] unieke sleutel op DateKey, DepartementKey | verwacht == 0 | gekregen 0
+  [OK] aantal records voor FactDepartmentHeadcount in 2024 | verwacht == 477 | gekregen 477        
+  [OK] aantal werknemers voor FactDepartmentHeadcount in januari 2024 | verwacht == 2384 | gekregen 2384
+  [OK] aantal records voor FactDepartmentHeadcount in april 2025 | verwacht == 2300 | gekregen 2300
+
+Tabel: FactStaffCommute
+----------------------------------------------------------------------
+Geslaagd: 10
+Gefaald : 0
+Totaal   : 10
+  [OK] aantal rijen | verwacht > 0 | gekregen 89319
+  [OK] geen NULL in DateKey, StaffKey | verwacht == 0 | gekregen 0
+  [OK] geen lege waarden in DateKey, StaffKey | verwacht == 0 | gekregen 0
+  [OK] unieke sleutel op StaffCommuteKey | verwacht == 0 | gekregen 0
+  [OK] totaal aantal kilometers door medewerkers op 20240108 | verwacht 2739.00 ± 0.1 | gekregen 2739.00
+  [OK] totaal aantal kilometers door medewerkers op 20240304 | verwacht 2789.00 ± 0.1 | gekregen 2789.00
+  [OK] totaal aantal kilometers door medewerkers op 20240607 | verwacht 2159.00 ± 0.1 | gekregen 2159.00
+  [OK] totaal aantal kilometers door medewerkers op 20250219 | verwacht 5224.10 ± 0.1 | gekregen 5224.10
+  [OK] totaal aantal kilometers door medewerkers op 20250510 | verwacht 11.00 ± 0.1 | gekregen 11.00
+  [OK] totaal aantal kilometers door medewerkers op 20251112 | verwacht 1826.80 ± 0.1 | gekregen 1826.80
+
+Tabel: DimTransportType
+----------------------------------------------------------------------
+Geslaagd: 11
+Gefaald : 0
+Totaal   : 11
+  [OK] aantal rijen | verwacht > 0 | gekregen 8
+  [OK] geen NULL in VehicleType | verwacht == 0 | gekregen 0
+  [OK] unieke waarden in VehicleType | verwacht == 0 | gekregen 0
+  [OK] controle transport_mode Trein | verwacht == 1 | gekregen 1
+  [OK] controle transport_mode Bus | verwacht == 1 | gekregen 1
+  [OK] controle transport_mode Auto | verwacht == 1 | gekregen 1
+  [OK] controle transport_mode Vliegtuig-700 | verwacht == 1 | gekregen 1
+  [OK] controle transport_mode Vliegtuig+700 | verwacht == 1 | gekregen 1
+  [OK] controle transport_mode Vliegtuig+2500 | verwacht == 1 | gekregen 1
+  [OK] controle transport_mode Fiets | verwacht == 1 | gekregen 1
+  [OK] controle transport_mode Boot | verwacht == 1 | gekregen 1
+
+Tabel: DimBlueBikeStation
+----------------------------------------------------------------------
+Geslaagd: 17
+Gefaald : 0
+Totaal   : 17
+  [OK] aantal rijen | verwacht > 0 | gekregen 253
+  [OK] geen NULL in LocationName | verwacht == 0 | gekregen 0
+  [OK] geen lege waarden in LocationName | verwacht == 0 | gekregen 0
+  [OK] unieke sleutel op Latitude, Longitude | verwacht == 0 | gekregen 0
+  [OK] unieke waarden in LocationName | verwacht == 0 | gekregen 0
+  [OK] aantal BlueBike locaties in Antwerpen | verwacht 40 ± 2 | gekregen 40
+  [OK] aantal BlueBike locaties in Oost-Vlaanderen | verwacht 87 ± 2 | gekregen 86
+  [OK] aantal BlueBike locaties in West-Vlaanderen | verwacht 21 ± 2 | gekregen 22
+  [OK] aantal BlueBike locaties in Limburg | verwacht 21 ± 2 | gekregen 21
+  [OK] aantal BlueBike locaties in Vlaams-Brabant | verwacht 74 ± 2 | gekregen 75
+  [OK] aantal BlueBike locaties in Luik | verwacht 1 ± 2 | gekregen 1
+  [OK] aantal BlueBike locaties in Henegouwen | verwacht 1 ± 2 | gekregen 1
+  [OK] aantal BlueBike locaties in postcode 9000 | verwacht == 3 | gekregen 3
+  [OK] aantal BlueBike locaties in postcode 9051 | verwacht == 1 | gekregen 1
+  [OK] aantal BlueBike locaties in postcode 9800 | verwacht == 2 | gekregen 2
+  [OK] aantal BlueBike locaties in postcode 8500 | verwacht == 2 | gekregen 2
+  [OK] aantal BlueBike locaties met '%station%' in naam | verwacht == 131 | gekregen 131
+
+Tabel: FactBlueBike
+----------------------------------------------------------------------
+Geslaagd: 8
+Gefaald : 0
+Totaal   : 8
+  [OK] aantal rijen | verwacht > 0 | gekregen 275859
+  [OK] geen NULL in DateKey, TimeKey, BlueBikeStationKey | verwacht == 0 | gekregen 0
+  [OK] geen lege waarden in DateKey, TimeKey, BlueBikeStationKey | verwacht == 0 | gekregen 0      
+  [OK] unieke sleutel op DateKey, TimeKey, BlueBikeStationKey | verwacht == 0 | gekregen 0
+  [OK] gemiddeld aantal beschikbare fietsen in %Oostende% | verwacht 60..80 | gekregen 67
+  [OK] gemiddeld aantal beschikbare fietsen in %Deinze station% | verwacht 80..115 | gekregen 114  
+  [OK] gemiddeld aantal beschikbare fietsen in %Ieper% | verwacht 5..10 | gekregen 6
+  [OK] gemiddeld aantal beschikbare fietsen in %Machelen% | verwacht 2..15 | gekregen 5
+
+======================================================================
+ALGEMENE SAMENVATTING
+======================================================================
+Totaal geslaagd: 152
+Totaal gefaald : 0
+Totaal checks  : 152
+======================================================================
+
+
+====================================== 140 passed in 6.67s =======================================

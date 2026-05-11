@@ -1,0 +1,36 @@
+2026-05-04 10:57:08,468 [INFO] API.app: Flask-app gemaakt. Routes geregistreerd onder /api/v1
+2026-05-04 10:57:08,486 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.115.61:5000
+2026-05-04 10:57:08,486 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-05-04 10:57:13,362 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 10:57:13] "GET / HTTP/1.1" 200 -
+2026-05-04 10:57:13,452 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 10:57:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-04 10:57:29,864 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 10:57:29] "GET / HTTP/1.1" 200 -
+2026-05-04 10:57:29,943 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 10:57:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-04 10:58:08,432 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 10:58:08] "[33mGET /api/health/check HTTP/1.1[0m" 404 -
+2026-05-04 10:58:19,483 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 10:58:19] "GET /api/v1/health HTTP/1.1" 200 -
+2026-05-04 10:58:44,804 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 10:58:44] "[33mGET /api/v1/counting-points/{id}/totals?period=day\\|week\\|month\\|year HTTP/1.1[0m" 404 -
+2026-05-04 10:59:14,135 [ERROR] API.errors: DB-fout: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Telpaal met deze ID bestaat niet. (50000) (SQLExecDirectW)')
+2026-05-04 10:59:14,170 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 10:59:14] "[31m[1mGET /api/v1/counting-points/5070/totals?period=month HTTP/1.1[0m" 400 -
+2026-05-04 10:59:14,231 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 10:59:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-04 10:59:31,485 [ERROR] API.errors: DB-fout: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Telpaal met deze ID bestaat niet. (50000) (SQLExecDirectW)')
+2026-05-04 10:59:31,485 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 10:59:31] "[31m[1mGET /api/v1/counting-points/120/totals?period=month HTTP/1.1[0m" 400 -
+2026-05-04 10:59:37,604 [ERROR] API.errors: DB-fout: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Telpaal met deze ID bestaat niet. (50000) (SQLExecDirectW)')
+2026-05-04 10:59:37,604 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 10:59:37] "[31m[1mGET /api/v1/counting-points/120/totals?period=month HTTP/1.1[0m" 400 -
+2026-05-04 11:02:08,554 [INFO] API.app: Flask-app gemaakt. Routes geregistreerd onder /api/v1
+2026-05-04 11:02:08,582 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.115.61:5000
+2026-05-04 11:02:08,582 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-05-04 11:02:43,782 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 11:02:43] "GET /api/v1/blue-bike-stations/availability/last-7-days HTTP/1.1" 200 -
+2026-05-04 11:39:49,961 [INFO] API.app: Flask-app gemaakt. Routes geregistreerd onder /api/v1
+2026-05-04 11:39:49,973 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.115.61:5000
+2026-05-04 11:39:49,973 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-05-04 11:39:51,953 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 11:39:51] "GET / HTTP/1.1" 200 -
+2026-05-04 11:41:36,522 [ERROR] API.blueprints.health: Health-check faalde: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd.\r\n (10061) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (10061)')
+2026-05-04 11:41:36,523 [INFO] werkzeug: 127.0.0.1 - - [04/May/2026 11:41:36] "[35m[1mGET /api/v1/health HTTP/1.1[0m" 503 -

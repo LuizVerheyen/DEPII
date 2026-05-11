@@ -1,0 +1,713 @@
+label,mae,mean_counts,mape
+Dendermonde - Martelarenlaan (West),1.9459309050190827,754.2,0.3
+Dendermonde - Martelarenlaan (West),1.9459309050190827,,
+Beersel - Alsembergsteenweg (West),10.338719549630543,59.9,17.3
+Beersel - Alsembergsteenweg (West),10.338719549630543,,
+Sint-Pieters-Leeuw - Alsembergsesteenweg (Noord),10.33932584243392,46.4,22.3
+Sint-Pieters-Leeuw - Alsembergsesteenweg (Noord),10.33932584243392,,
+Deinze - Steenweg Deinze (Zuid),10.712148278482745,60.0,17.9
+Deinze - Steenweg Deinze (Zuid),10.712148278482745,,
+Beersel - Alsembergsteenweg (Oost),14.891049649760895,,
+Beersel - Alsembergsteenweg (Oost),14.891049649760895,67.9,21.9
+Mechelen - Antwerpsesteenweg (West),16.238276830736545,121.7,13.3
+Mechelen - Antwerpsesteenweg (West),16.238276830736545,,
+Pepingen - Ninoofsesteenweg (Zuid),16.36204745962396,69.3,23.6
+Pepingen - Ninoofsesteenweg (Zuid),16.36204745962396,,
+Sint-Pieters-Leeuw - Alsembergsesteenweg (Zuid),17.68267204054236,47.7,37.1
+Sint-Pieters-Leeuw - Alsembergsesteenweg (Zuid),17.68267204054236,,
+Wemmel F213 Windberg (Noord),19.216727359607987,,
+Wemmel F213 Windberg (Noord),19.216727359607987,95.9,20.0
+Steenokkerzeel F214 Brucargo,19.24955008492076,,
+Steenokkerzeel F214 Brucargo,19.24955008492076,96.8,19.9
+Meulebeke - Bruggesteenweg (West),19.726273639099425,70.6,27.9
+Meulebeke - Bruggesteenweg (West),19.726273639099425,,
+Heers - Nieuwe Steenweg (West),20.268161329877362,63.0,32.1
+Heers - Nieuwe Steenweg (West),20.268161329877362,,
+Asse - Edingsesteenweg (Oost - kant Zetsel),22.03035475807048,,
+Asse - Edingsesteenweg (Oost - kant Zetsel),22.03035475807048,95.8,23.0
+Asse - Edingsesteenweg (West - kant Platijn),22.182929651934206,83.3,26.6
+Asse - Edingsesteenweg (West - kant Platijn),22.182929651934206,,
+Lummen - Thiewinkelstraat (Oost),22.339298266735202,81.1,27.6
+Lummen - Thiewinkelstraat (Oost),22.339298266735202,,
+Lummen - Thiewinkelstraat (West),23.050670899203904,,
+Lummen - Thiewinkelstraat (West),23.050670899203904,78.9,29.2
+Meulebeke - Bruggesteenweg (Oost),23.33143030969782,100.6,23.2
+Meulebeke - Bruggesteenweg (Oost),23.33143030969782,,
+Wemmel F213 Windberg (Zuid),23.747630952592218,,
+Wemmel F213 Windberg (Zuid),23.747630952592218,97.1,24.5
+Zele - Europalaan,24.376794460539877,,
+Zele - Europalaan,24.376794460539877,116.3,21.0
+Gooik - Bettestraat,24.48153662720951,70.0,35.0
+Gooik - Bettestraat,24.48153662720951,,
+Heers - Nieuwe Steenweg (Oost),24.53510921767553,67.7,36.3
+Heers - Nieuwe Steenweg (Oost),24.53510921767553,,
+Diepenbeek F72 Tunnel Havenlaan,25.11817520502441,,
+Diepenbeek F72 Tunnel Havenlaan,25.11817520502441,81.0,31.0
+Zaventem - Terminal Brussels Airport,25.15981036905984,,
+Zaventem - Terminal Brussels Airport,25.15981036905984,164.4,15.3
+Ardooie F37 Roeselaarsestraat (Oost),25.44977988539448,139.0,18.3
+Ardooie F37 Roeselaarsestraat (Oost),25.44977988539448,,
+Ardooie F37 Roeselaarsestraat (West),25.4644772175911,,
+Ardooie F37 Roeselaarsestraat (West),25.4644772175911,127.1,20.0
+Maasmechelen - Rijksweg (Oost),25.785711928966656,151.8,17.0
+Maasmechelen - Rijksweg (Oost),25.785711928966656,,
+Holsbeek - Kasteel van Horst,27.64496583149231,99.0,27.9
+Holsbeek - Kasteel van Horst,27.64496583149231,,
+Lille - Gierlebaan (Oost),28.245433782248796,,
+Lille - Gierlebaan (Oost),28.245433782248796,124.7,22.7
+Antwerpen Oprit/Afrit FR10,28.377101584238513,117.6,24.1
+Antwerpen Oprit/Afrit FR10,28.377101584238513,,
+Maasmechelen - Rijksweg (West),29.45669977836917,,
+Maasmechelen - Rijksweg (West),29.45669977836917,156.5,18.8
+Tongeren - Genoelsweg,31.985871857337035,,
+Tongeren - Genoelsweg,31.985871857337035,124.0,25.8
+Lille - Gierlebaan (West),32.40870774776661,130.0,24.9
+Lille - Gierlebaan (West),32.40870774776661,,
+Malle - Hoogstraatsebaan (Oost),32.864505373162714,,
+Malle - Hoogstraatsebaan (Oost),32.864505373162714,172.3,19.1
+Oosterzele F417 Roosbroekstraat,35.00183333333333,200.5,17.5
+Oosterzele F417 Roosbroekstraat,35.00183333333333,,
+Leuven F29 Koning Boudewijnlaan,35.03675257073427,171.7,20.4
+Leuven F29 Koning Boudewijnlaan,35.03675257073427,,
+Torhout F33 Oostendestraat (Noord),35.38743553343921,163.7,21.6
+Torhout F33 Oostendestraat (Noord),35.38743553343921,,
+Torhout F33 Oostendestraat (Zuid),36.76398123302795,,
+Torhout F33 Oostendestraat (Zuid),36.76398123302795,196.0,18.8
+Genk - Kielenswenbergweg,38.57520561314582,161.5,23.9
+Genk - Kielenswenbergweg,38.57520561314582,,
+Overijse F204 Vlierbeekberg,40.02995246736856,,
+Overijse F204 Vlierbeekberg,40.02995246736856,137.3,29.2
+Malle - Hoogstraatsebaan (West),40.15956457993808,,
+Malle - Hoogstraatsebaan (West),40.15956457993808,178.3,22.5
+Diest - Leuvensesteenweg (Noord),41.102649091195886,245.7,16.7
+Diest - Leuvensesteenweg (Noord),41.102649091195886,,
+Mal - Neremplein,42.37523694508734,56.5,75.1
+Mal - Neremplein,42.37523694508734,,
+Pepingen - Ninoofsesteenweg (Noord),45.117324449636065,190.8,23.6
+Pepingen - Ninoofsesteenweg (Noord),45.117324449636065,,
+Sint-Martens-Voeren - Ottegraeven,45.13825531141688,,
+Sint-Martens-Voeren - Ottegraeven,45.13825531141688,51.6,87.5
+Melle F417 Geraardbergsesteenweg/Kouterslag,45.35128173093197,284.2,16.0
+Melle F417 Geraardbergsesteenweg/Kouterslag,45.35128173093197,,
+Balen - Steenweg op Leopoldsburg (West),45.60781590799013,,
+Balen - Steenweg op Leopoldsburg (West),45.60781590799013,171.7,26.6
+Balen - Steenweg op Leopoldsburg (Oost),46.35180236964484,,
+Balen - Steenweg op Leopoldsburg (Oost),46.35180236964484,157.4,29.5
+Diest - Leuvensesteenweg (Zuid),46.71831221174146,,
+Diest - Leuvensesteenweg (Zuid),46.71831221174146,305.6,15.3
+Leuven - Naamsesteenweg (Oost),47.2488326192247,288.2,16.4
+Leuven - Naamsesteenweg (Oost),47.2488326192247,,
+Pelt - Hamonterweg (Noord),47.989855010620616,,
+Pelt - Hamonterweg (Noord),47.989855010620616,221.4,21.7
+Pelt - Hamonterweg (Zuid),48.27489615322813,,
+Pelt - Hamonterweg (Zuid),48.27489615322813,250.1,19.3
+Brecht - Wuustwezelsteenweg (Oost),49.40923799133949,187.5,26.3
+Brecht - Wuustwezelsteenweg (Oost),49.40923799133949,,
+Deinze - Steenweg Deinze (Noord),49.41630624345415,231.9,21.3
+Deinze - Steenweg Deinze (Noord),49.41630624345415,,
+Genk - Lindebosstraat,49.45159915987398,229.7,21.5
+Genk - Lindebosstraat,49.45159915987398,,
+Zaventem F3 S-bocht,50.436462871746954,239.9,21.0
+Zaventem F3 S-bocht,50.436462871746954,,
+Maasmechelen - Fietsen door de Heide H,52.18170642693766,34.3,152.3
+Maasmechelen - Fietsen door de Heide H,52.18170642693766,,
+Beerse - Antwerpseweg,52.30779480948827,272.9,19.2
+Beerse - Antwerpseweg,52.30779480948827,,
+Brecht - Wuustwezelsteenweg (West),52.46143127018271,,
+Brecht - Wuustwezelsteenweg (West),52.46143127018271,191.6,27.4
+Sint-Truiden F21 Stayen,52.57189623188895,,
+Sint-Truiden F21 Stayen,52.57189623188895,147.7,35.6
+Lanaken F72 Cdt Giddelostraat (West),53.420256349723374,226.3,23.6
+Lanaken F72 Cdt Giddelostraat (West),53.420256349723374,,
+Lommel - Molsekiezel (Noord),53.696370202731714,273.4,19.6
+Lommel - Molsekiezel (Noord),53.696370202731714,,
+Herent - Brusselsesteenweg (Noord),55.56244544420827,,
+Herent - Brusselsesteenweg (Noord),55.56244544420827,258.3,21.5
+Evergem - Christoffelweg (Oost),55.77695337885936,,
+Evergem - Christoffelweg (Oost),55.77695337885936,303.5,18.4
+Deinze - Leiemeersdreef,56.59560803540009,,
+Deinze - Leiemeersdreef,56.59560803540009,155.6,36.4
+Herzele - Bokstraat,56.650502619685454,,
+Herzele - Bokstraat,56.650502619685454,182.2,31.1
+Lokeren - Hillarestraat (West),56.877371976231814,301.3,18.9
+Lokeren - Hillarestraat (West),56.877371976231814,,
+Lier - Aarschotsesteenweg (Zuid),56.91340368041552,320.3,17.8
+Lier - Aarschotsesteenweg (Zuid),56.91340368041552,,
+Lommel - Molsekiezel (Zuid),57.53090100867884,,
+Lommel - Molsekiezel (Zuid),57.53090100867884,269.4,21.4
+Peer - Baan naar Bree (Zuid),57.74525686858797,,
+Peer - Baan naar Bree (Zuid),57.74525686858797,193.7,29.8
+Maasmechelen - Fietsen door de Heide T,57.93638143796248,,
+Maasmechelen - Fietsen door de Heide T,57.93638143796248,46.7,124.0
+Ieper F381 Poperingseweg (Noord),58.271050187472696,307.8,18.9
+Ieper F381 Poperingseweg (Noord),58.271050187472696,,
+Ieper F381 Poperingseweg (Zuid),58.73293103848802,302.1,19.4
+Ieper F381 Poperingseweg (Zuid),58.73293103848802,,
+Bertem F203,58.77910680182927,96.6,60.9
+Bertem F203,58.77910680182927,,
+Lommel - Fietsen Door De Bomen T,59.151989310472764,59.5,99.4
+Lommel - Fietsen Door De Bomen T,59.151989310472764,,
+Lokeren - Hillarestraat (Oost),59.28487242387402,294.4,20.1
+Lokeren - Hillarestraat (Oost),59.28487242387402,,
+Geel - Winkelom (West),59.406908116460954,,
+Geel - Winkelom (West),59.406908116460954,364.5,16.3
+Kortrijk - Pottelberg (Oost),60.95585065759491,301.1,20.2
+Kortrijk - Pottelberg (Oost),60.95585065759491,,
+Tienen - Diestsesteenweg,60.965834171542845,,
+Tienen - Diestsesteenweg,60.965834171542845,356.8,17.1
+Kalmthout - Kalmthoutse Heide,61.432829188824,,
+Kalmthout - Kalmthoutse Heide,61.432829188824,243.1,25.3
+Geel - Winkelom (Oost),61.968186076335876,370.5,16.7
+Geel - Winkelom (Oost),61.968186076335876,,
+Zele - Huivelde,62.07992642541802,354.2,17.5
+Zele - Huivelde,62.07992642541802,,
+Nijlen - Grote Steenweg (Zuid),62.9665201652934,311.3,20.2
+Nijlen - Grote Steenweg (Zuid),62.9665201652934,,
+Assenede F423 Duvekeete,63.6046657731763,300.6,21.2
+Assenede F423 Duvekeete,63.6046657731763,,
+Melle F417 Geraardbergsesteenweg/Kouterslag (?),63.672878160814506,,
+Melle F417 Geraardbergsesteenweg/Kouterslag (?),63.672878160814506,356.9,17.8
+As - Stationsstraat,63.71340871427549,56.5,112.8
+As - Stationsstraat,63.71340871427549,,
+Evergem - Christoffelweg (West),64.22876914800986,,
+Evergem - Christoffelweg (West),64.22876914800986,324.1,19.8
+Nijlen - Grote Steenweg (Noord),64.6485120023621,316.4,20.4
+Nijlen - Grote Steenweg (Noord),64.6485120023621,,
+Oelegem - Antitankgracht,64.65625964466956,160.5,40.3
+Oelegem - Antitankgracht,64.65625964466956,,
+Bilzen/Zutendaal F72 Munsterbos,69.60670717137516,203.2,34.3
+Bilzen/Zutendaal F72 Munsterbos,69.60670717137516,,
+Deinze - Damstraat,70.07567119832511,326.3,21.5
+Deinze - Damstraat,70.07567119832511,,
+Asse F212 Brusselsesteenweg,70.11599595428397,,
+Asse F212 Brusselsesteenweg,70.11599595428397,341.5,20.5
+Sint-Martens-Voeren - Ottegraeven,70.27697469352965,,
+Sint-Martens-Voeren - Ottegraeven,70.27697469352965,40.9,171.9
+Lo-Reninge - Fintele,71.19053216275985,193.8,36.7
+Lo-Reninge - Fintele,71.19053216275985,,
+Peer - Baan naar Bree (Noord),71.29060204341857,217.1,32.8
+Peer - Baan naar Bree (Noord),71.29060204341857,,
+Tienen - Kabbeekvest,71.48399607146854,406.5,17.6
+Tienen - Kabbeekvest,71.48399607146854,,
+Brugge F31 Zeveneken,72.03297675407696,,
+Brugge F31 Zeveneken,72.03297675407696,349.1,20.6
+Heist op den Berg - Mechelsesteenweg (Zuid),72.29182457211083,321.4,22.5
+Heist op den Berg - Mechelsesteenweg (Zuid),72.29182457211083,,
+Kampenhout  - Sas (West),72.42582620968548,,
+Kampenhout  - Sas (West),72.42582620968548,355.6,20.4
+Machelen F214 einde Leuvensesteenweg,72.42859069056445,,
+Machelen F214 einde Leuvensesteenweg,72.42859069056445,388.2,18.7
+Linter F21 naar Zoutleeuw,73.46525534545843,,
+Linter F21 naar Zoutleeuw,73.46525534545843,257.0,28.6
+Ronse F421 Station,73.9404859828316,,
+Ronse F421 Station,73.9404859828316,318.7,23.2
+Lier - Aarschotsesteenweg (Noord),74.1071196868747,305.5,24.3
+Lier - Aarschotsesteenweg (Noord),74.1071196868747,,
+Retie - Turnhoutsebaan (Oost),74.22199024839544,368.4,20.1
+Retie - Turnhoutsebaan (Oost),74.22199024839544,,
+Kruisem - Lange Aststraat,74.24100021061396,164.1,45.2
+Kruisem - Lange Aststraat,74.24100021061396,,
+Hoogstraten - Lodewijk de Konincklaan,74.9921036022844,,
+Hoogstraten - Lodewijk de Konincklaan,74.9921036022844,381.7,19.6
+Brugge - Dudzeelse Steenweg (Oost),76.68941595387481,428.6,17.9
+Brugge - Dudzeelse Steenweg (Oost),76.68941595387481,,
+Tremelo - Sven Nys Cycling Center,77.7387719628249,,
+Tremelo - Sven Nys Cycling Center,77.7387719628249,209.0,37.2
+Genk F76 Brikkenovenstraat,78.20291098550035,,
+Genk F76 Brikkenovenstraat,78.20291098550035,342.7,22.8
+Retie - Kanaal Dessel-Schoten,78.40092677860065,,
+Retie - Kanaal Dessel-Schoten,78.40092677860065,278.0,28.2
+Langemark F351 Vrijbosroute,78.75370742253327,237.7,33.1
+Langemark F351 Vrijbosroute,78.75370742253327,,
+Kortrijk - Pottelberg (West),78.79746603114643,362.2,21.8
+Kortrijk - Pottelberg (West),78.79746603114643,,
+Retie - Turnhoutsebaan (West),79.03881769139011,,
+Retie - Turnhoutsebaan (West),79.03881769139011,371.1,21.3
+Riemst F722 Trekweg Cavei,79.23091631847264,,
+Riemst F722 Trekweg Cavei,79.23091631847264,233.6,33.9
+Westerlo - de Merodedreef (West),79.69496778319224,,
+Westerlo - de Merodedreef (West),79.69496778319224,274.8,29.0
+Brakel - Zwalmbeekweg,79.75433973494061,,
+Brakel - Zwalmbeekweg,79.75433973494061,287.9,27.7
+Bilzen - Tongersestraat,79.845724343482,272.7,29.3
+Bilzen - Tongersestraat,79.845724343482,,
+Hamme F43 Rijksweg 60,80.527477041028,,
+Hamme F43 Rijksweg 60,80.527477041028,455.6,17.7
+Geel - Snelwegstraat (West),80.98283089925452,486.9,16.6
+Geel - Snelwegstraat (West),80.98283089925452,,
+Aalst - Fietspad Merestraat (Noord),81.9442921379985,305.9,26.8
+Aalst - Fietspad Merestraat (Noord),81.9442921379985,,
+Kampenhout  - Sas (Oost),82.02221984063863,344.9,23.8
+Kampenhout  - Sas (Oost),82.02221984063863,,
+Heist op den Berg - Mechelsesteenweg (Noord),82.83440056833203,,
+Heist op den Berg - Mechelsesteenweg (Noord),82.83440056833203,386.6,21.4
+Hasselt F701 Tuikabelbrug,83.53655748134923,,
+Hasselt F701 Tuikabelbrug,83.53655748134923,366.7,22.8
+Wervik F372 Menenstraat (Noord),84.528890887547,,
+Wervik F372 Menenstraat (Noord),84.528890887547,491.8,17.2
+Zoersel - Zoerselbosdreef,84.9693772739091,,
+Zoersel - Zoerselbosdreef,84.9693772739091,197.3,43.1
+Gent F40 John Kennedylaan,85.54002863426906,,
+Gent F40 John Kennedylaan,85.54002863426906,398.2,21.5
+Geel - Snelwegstraat (Oost),85.79429616623372,541.7,15.8
+Geel - Snelwegstraat (Oost),85.79429616623372,,
+Meersel Dreef - Jaagpad Mark,86.40509270513077,,
+Meersel Dreef - Jaagpad Mark,86.40509270513077,218.1,39.6
+Wervik F372 Menenstraat (Zuid),86.72127234558263,,
+Wervik F372 Menenstraat (Zuid),86.72127234558263,496.9,17.5
+Genk - Oude Postbaan,88.33840162950935,,
+Genk - Oude Postbaan,88.33840162950935,349.6,25.3
+Gent F402 Langerbruggestraat,88.56212875516623,559.4,15.8
+Gent F402 Langerbruggestraat,88.56212875516623,,
+Meise F28 Strombeek-Beverselaan,89.41012835320346,,
+Meise F28 Strombeek-Beverselaan,89.41012835320346,330.3,27.1
+Gistel Groene 62,89.82876017099584,230.8,38.9
+Gistel Groene 62,89.82876017099584,,
+Zwevegem F374 Jaagpad La Flandrebrug,89.94643121828878,,
+Zwevegem F374 Jaagpad La Flandrebrug,89.94643121828878,333.8,26.9
+Ledegem - Kezelbergroute,90.62265878873359,,
+Ledegem - Kezelbergroute,90.62265878873359,214.1,42.3
+Ravels - Bels Lijntje,92.72145696315444,250.0,37.1
+Ravels - Bels Lijntje,92.72145696315444,,
+Beveren - Zandstraat (West),94.21556002014269,408.8,23.0
+Beveren - Zandstraat (West),94.21556002014269,,
+F74 Peer Wijchmaal,95.35281907951835,,
+F74 Peer Wijchmaal,95.35281907951835,327.8,29.1
+Mol - Zilvermeerhaven,95.47035058198982,241.8,39.5
+Mol - Zilvermeerhaven,95.47035058198982,,
+Herk De Stad - Steenweg (Noord),95.60547053584361,370.8,25.8
+Herk De Stad - Steenweg (Noord),95.60547053584361,,
+Zaventem F3 Maalbeekweg,95.7141394524631,444.7,21.5
+Zaventem F3 Maalbeekweg,95.7141394524631,,
+Oostende - Gistelsesteenweg (West),96.59118666609221,613.7,15.7
+Oostende - Gistelsesteenweg (West),96.59118666609221,,
+Langemark F351 Melkweg,97.41135785487305,,
+Langemark F351 Melkweg,97.41135785487305,335.8,29.0
+Arendonk - Hertevelden,98.57834774226924,,
+Arendonk - Hertevelden,98.57834774226924,395.2,24.9
+Genk - Hasseltweg,99.17681737048706,354.5,28.0
+Genk - Hasseltweg,99.17681737048706,,
+Herk De Stad - Steenweg (Zuid),100.09715974297312,,
+Herk De Stad - Steenweg (Zuid),100.09715974297312,371.6,26.9
+Diegem FR0 Sint-Stevens-Woluwestraat,100.93495930015871,,
+Diegem FR0 Sint-Stevens-Woluwestraat,100.93495930015871,281.3,35.9
+Wachtebeke F41 Melkerijstraat,101.00057901975896,476.0,21.2
+Wachtebeke F41 Melkerijstraat,101.00057901975896,,
+Beringen F753 Koolmijnlaan,101.57628158257391,324.8,31.3
+Beringen F753 Koolmijnlaan,101.57628158257391,,
+Izegem - Molstraat,102.63693245917337,,
+Izegem - Molstraat,102.63693245917337,506.4,20.3
+Kortessem - Bombroekstraat,102.79838998502645,,
+Kortessem - Bombroekstraat,102.79838998502645,100.0,102.8
+Nieuwpoort - Frontzate,102.97017661169136,294.6,35.0
+Nieuwpoort - Frontzate,102.97017661169136,,
+Londerzeel F27 Leireken,103.14200453544387,,
+Londerzeel F27 Leireken,103.14200453544387,365.6,28.2
+Genk - Schabartstraat,103.22246400323104,427.0,24.2
+Genk - Schabartstraat,103.22246400323104,,
+Lanaken F72 Cdt Giddelostraat (Oost),103.54116048182499,,
+Lanaken F72 Cdt Giddelostraat (Oost),103.54116048182499,407.5,25.4
+Wortel-Kolonie 6b,103.97399976722676,,
+Wortel-Kolonie 6b,103.97399976722676,131.9,78.8
+Kortrijk - Gentsesteenweg (West),103.99553190446522,697.5,14.9
+Kortrijk - Gentsesteenweg (West),103.99553190446522,,
+Genk F75 Mercuriuslaan,104.18872770269593,106.6,97.7
+Genk F75 Mercuriuslaan,104.18872770269593,,
+Brugge - Gistelsesteenweg (Noord),106.16194006959618,,
+Brugge - Gistelsesteenweg (Noord),106.16194006959618,500.8,21.2
+Tienen - Albertvest,106.71927606102247,,
+Tienen - Albertvest,106.71927606102247,636.5,16.8
+Gent - Brusselsesteenweg (West),106.81543522027813,,
+Gent - Brusselsesteenweg (West),106.81543522027813,951.8,11.2
+Hoeilaart F205 Terhulpsesteenweg,106.84063056815734,,
+Hoeilaart F205 Terhulpsesteenweg,106.84063056815734,324.8,32.9
+Halen F22 Bloemendaalstraat,107.04832207522732,,
+Halen F22 Bloemendaalstraat,107.04832207522732,403.7,26.5
+Geraardsbergen - Jaagpad Dender,108.2275905470222,,
+Geraardsbergen - Jaagpad Dender,108.2275905470222,337.7,32.0
+Oostende - Gistelsesteenweg (Oost),108.85484278043221,,
+Oostende - Gistelsesteenweg (Oost),108.85484278043221,667.8,16.3
+Roeselare - Jaagpad Regenbeekstraat,109.60407755537548,354.6,30.9
+Roeselare - Jaagpad Regenbeekstraat,109.60407755537548,,
+Linter F22 naar Budingen,110.39084823425422,282.8,39.0
+Linter F22 naar Budingen,110.39084823425422,,
+Antwerpen F107 Ruggeveldbrug,111.09026877467197,530.8,20.9
+Antwerpen F107 Ruggeveldbrug,111.09026877467197,,
+Peer - Markt,112.41739806511859,,
+Peer - Markt,112.41739806511859,439.1,25.6
+Maaseik - Pater Sangersbrug (Zuid),113.17412418773321,416.0,27.2
+Maaseik - Pater Sangersbrug (Zuid),113.17412418773321,,
+Genk - Fietsen door het Water T,114.45132689976639,131.0,87.3
+Genk - Fietsen door het Water T,114.45132689976639,,
+Brasschaat - Bredabaan (Oost),114.68172444866677,669.9,17.1
+Brasschaat - Bredabaan (Oost),114.68172444866677,,
+Ieper - Westkaaipad,114.71980807397347,,
+Ieper - Westkaaipad,114.71980807397347,388.4,29.5
+Brasschaat - Bredabaan (West),116.92958780012911,,
+Brasschaat - Bredabaan (West),116.92958780012911,726.3,16.1
+Houthalen-Helchteren F74 De Oude Spoorweg,117.04095497225815,431.2,27.1
+Houthalen-Helchteren F74 De Oude Spoorweg,117.04095497225815,,
+Turnhout F102 Bels Lijntje brug,117.72217664822311,504.4,23.3
+Turnhout F102 Bels Lijntje brug,117.72217664822311,,
+Kortrijk - Gentsesteenweg (Oost),118.07588529839263,723.4,16.3
+Kortrijk - Gentsesteenweg (Oost),118.07588529839263,,
+Lier F16 Fietsbrug (Zuid),118.10812820814553,573.8,20.6
+Lier F16 Fietsbrug (Zuid),118.10812820814553,,
+Bocholt - Kapelstraat,118.18043771918475,,
+Bocholt - Kapelstraat,118.18043771918475,100.4,117.7
+Leuven - Zoutstraat,118.29477837444745,929.6,12.7
+Leuven - Zoutstraat,118.29477837444745,,
+Wortel-Kolonie 6a,119.25635242503154,102.8,116.0
+Wortel-Kolonie 6a,119.25635242503154,,
+Herselt - Mie Maan,121.45175768118028,397.5,30.6
+Herselt - Mie Maan,121.45175768118028,,
+Izegem - Minervastraat,122.43852017335219,,
+Izegem - Minervastraat,122.43852017335219,539.9,22.7
+Brugge - Gistelsesteenweg (Zuid),124.61311943083858,636.8,19.6
+Brugge - Gistelsesteenweg (Zuid),124.61311943083858,,
+Balen F105 Kanaal Dessel Kwaadmechelen,125.0030861489027,,
+Balen F105 Kanaal Dessel Kwaadmechelen,125.0030861489027,506.1,24.7
+Brugge F32 Koning Albert I-Laan,127.0407089930828,604.5,21.0
+Brugge F32 Koning Albert I-Laan,127.0407089930828,,
+Aalter - Knokkebaan,127.2663530525517,665.4,19.1
+Aalter - Knokkebaan,127.2663530525517,,
+Aarschot - Ter Heidelaan,127.37888229094999,,
+Aarschot - Ter Heidelaan,127.37888229094999,743.6,17.1
+Nieuwpoort F34 Kustweg Langebrug,127.59667393431242,,
+Nieuwpoort F34 Kustweg Langebrug,127.59667393431242,593.8,21.5
+Bree - Gruitroderpoort,127.83989075433097,,
+Bree - Gruitroderpoort,127.83989075433097,562.9,22.7
+Leuven - Naamsesteenweg (West),130.91486798898188,,
+Leuven - Naamsesteenweg (West),130.91486798898188,777.3,16.8
+Genk - Fietsen door het Water H,131.75937104721837,146.9,89.7
+Genk - Fietsen door het Water H,131.75937104721837,,
+Aalst F414 Fietspad Merestraat (Zuid),131.78171939552917,423.5,31.1
+Aalst F414 Fietspad Merestraat (Zuid),131.78171939552917,,
+Vilvoorde F23 Brusselsesteenweg,133.48717048163067,,
+Vilvoorde F23 Brusselsesteenweg,133.48717048163067,642.4,20.8
+Veurne - Lovaartdijkweg,134.62516561912622,521.4,25.8
+Veurne - Lovaartdijkweg,134.62516561912622,,
+Gent Pontstraat,135.9390947641726,937.3,14.5
+Gent Pontstraat,135.9390947641726,,
+Kapelle-Op-Den-Bos - Jaagpad,136.46450252918572,332.4,41.1
+Kapelle-Op-Den-Bos - Jaagpad,136.46450252918572,,
+Oudenaarde - Jaagpad Bovenschelde,137.43024366436197,496.2,27.7
+Oudenaarde - Jaagpad Bovenschelde,137.43024366436197,,
+Zaventem - omleiding F3,137.73413717345727,,
+Zaventem - omleiding F3,137.73413717345727,640.7,21.5
+Kluisbergen - Weyns,138.3474143580777,444.0,31.2
+Kluisbergen - Weyns,138.3474143580777,,
+Lier F11 Fietsbrug (Noord),138.94594325759797,642.7,21.6
+Lier F11 Fietsbrug (Noord),138.94594325759797,,
+Dilsen-Stokkem F751 Driepaal,140.99890653940108,,
+Dilsen-Stokkem F751 Driepaal,140.99890653940108,381.6,36.9
+Zulte F7 Knokstraat,141.95397618753944,,
+Zulte F7 Knokstraat,141.95397618753944,486.2,29.2
+Muizen - Jaagpad Dijle,142.02777239492895,480.7,29.5
+Muizen - Jaagpad Dijle,142.02777239492895,,
+Gent - Brusselsesteenweg (Oost),142.9469516659229,642.7,22.2
+Gent - Brusselsesteenweg (Oost),142.9469516659229,,
+Bornem F18 N16 Rijksweg,143.2972805879279,862.5,16.6
+Bornem F18 N16 Rijksweg,143.2972805879279,,
+Maaseik - Pater Sangersbrug (Noord),144.01236465735712,460.0,31.3
+Maaseik - Pater Sangersbrug (Noord),144.01236465735712,,
+Hasselt - Overdemerstraat,144.30664214165466,,
+Hasselt - Overdemerstraat,144.30664214165466,277.1,52.1
+Herentals - Lierseweg brug (West),145.61382133262006,312.4,46.6
+Herentals - Lierseweg brug (West),145.61382133262006,,
+Holsbeek F25,146.5439887876,566.1,25.9
+Holsbeek F25,146.5439887876,,
+Zeebrugge F34 Eendenfonteintje,146.77465103202996,,
+Zeebrugge F34 Eendenfonteintje,146.77465103202996,489.0,30.0
+Nieuwpoort - Kaai (West),147.28493232439644,682.9,21.6
+Nieuwpoort - Kaai (West),147.28493232439644,,
+Zaventem F3 Kerkhoflaan,147.40172149699112,,
+Zaventem F3 Kerkhoflaan,147.40172149699112,267.5,55.1
+Herentals - Lierseweg brug (Oost),147.85338849803117,,
+Herentals - Lierseweg brug (Oost),147.85338849803117,977.8,15.1
+Brugge - Jules Van Praetstraat,147.92449101668208,908.7,16.3
+Brugge - Jules Van Praetstraat,147.92449101668208,,
+Antwerpen - Luitenant Lippenslaan,148.9092322415215,1440.0,10.3
+Antwerpen - Luitenant Lippenslaan,148.9092322415215,,
+Mol - F105 - Merelstraat,153.29272611053827,,
+Mol - F105 - Merelstraat,153.29272611053827,524.7,29.2
+Tervuren - Warandepark,155.0529448703227,548.4,28.3
+Tervuren - Warandepark,155.0529448703227,,
+Peer - Diestersedijk,156.5747495496219,189.7,82.5
+Peer - Diestersedijk,156.5747495496219,,
+Herentals - F105 - Greestraat,156.8016472669454,,
+Herentals - F105 - Greestraat,156.8016472669454,700.0,22.4
+Antwerpen - Ruggeveldlaan,157.67056269156123,836.6,18.8
+Antwerpen - Ruggeveldlaan,157.67056269156123,,
+Bornem - Benedenweg naar dijk Schelde,162.6843263679326,605.5,26.9
+Bornem - Benedenweg naar dijk Schelde,162.6843263679326,,
+Lochristi F4 Station Beervelde,163.83059922511336,,
+Lochristi F4 Station Beervelde,163.83059922511336,579.8,28.3
+Opwijk F27 Leirekensroute,167.07069329090456,,
+Opwijk F27 Leirekensroute,167.07069329090456,304.8,54.8
+Linkhout - Schansstraat,168.3391882228589,142.9,117.8
+Linkhout - Schansstraat,168.3391882228589,,
+Stalhille F30 Vaartdijk-Zuid,169.22428033247886,,
+Stalhille F30 Vaartdijk-Zuid,169.22428033247886,621.2,27.2
+Herselt F106 Kempen Hagenlandroute,169.23830813225933,,
+Herselt F106 Kempen Hagenlandroute,169.23830813225933,673.8,25.1
+Heusden-Zolder F752 Routeke,169.28805120777542,,
+Heusden-Zolder F752 Routeke,169.28805120777542,483.0,35.1
+Izegem - Meensestraat,171.65762548806282,,
+Izegem - Meensestraat,171.65762548806282,827.7,20.7
+Heusden-Zolder,172.38143802405384,,
+Heusden-Zolder,172.38143802405384,166.8,103.3
+Zaventem F202 Woluwedal,172.93544760134765,,
+Zaventem F202 Woluwedal,172.93544760134765,582.2,29.7
+Antwerpen - Borsbeeksebrug,173.77530880572095,,
+Antwerpen - Borsbeeksebrug,173.77530880572095,1222.8,14.2
+Dendermonde F44 Spoorwegbrug Oudegem,174.8829672886809,876.4,20.0
+Dendermonde F44 Spoorwegbrug Oudegem,174.8829672886809,,
+Hasselt F70 Kapermolen,175.19359586651277,712.3,24.6
+Hasselt F70 Kapermolen,175.19359586651277,,
+Beveren F4 Station Beveren,175.54229347791374,,
+Beveren F4 Station Beveren,175.54229347791374,764.5,23.0
+Ham F77 Bergstraat,176.96375525721984,,
+Ham F77 Bergstraat,176.96375525721984,635.0,27.9
+Maaseik F78 Neeroeteren,181.60026778327955,,
+Maaseik F78 Neeroeteren,181.60026778327955,517.8,35.1
+Brugge - Diksmuidse Heerweg,182.88808953638596,721.8,25.3
+Brugge - Diksmuidse Heerweg,182.88808953638596,,
+Antwerpen - Slachthuislaan (West),183.26442478656975,,
+Antwerpen - Slachthuislaan (West),183.26442478656975,743.1,24.7
+Gent F40 Binnenring-Sint-Denijs,184.50634791241026,,
+Gent F40 Binnenring-Sint-Denijs,184.50634791241026,793.3,23.3
+Aalst F414 Fietspad Merestraat (West),185.57190111512708,,
+Aalst F414 Fietspad Merestraat (West),185.57190111512708,581.4,31.9
+Zemst F1 nabij Eppegem,186.95698448086887,,
+Zemst F1 nabij Eppegem,186.95698448086887,763.8,24.5
+Leuven - Riddersstraat,187.5947336821222,1318.5,14.2
+Leuven - Riddersstraat,187.5947336821222,,
+Bavikhove F371 Jaagpad,188.07646635266903,,
+Bavikhove F371 Jaagpad,188.07646635266903,450.4,41.8
+Sint-Niklaas - Parklaan,188.6210360330652,1054.5,17.9
+Sint-Niklaas - Parklaan,188.6210360330652,,
+Beernem F6 Miseriebocht,189.01961829769283,633.7,29.8
+Beernem F6 Miseriebocht,189.01961829769283,,
+Mechelen - Antwerpsesteenweg (Oost),189.2586920028883,1570.8,12.0
+Mechelen - Antwerpsesteenweg (Oost),189.2586920028883,,
+Lommel - Fietsen Door De Bomen H,189.94239304841037,150.0,126.6
+Lommel - Fietsen Door De Bomen H,189.94239304841037,,
+Herent - Brusselsesteenweg (Zuid),194.39581135663153,,
+Herent - Brusselsesteenweg (Zuid),194.39581135663153,879.8,22.1
+Antwerpen FR10,194.69270982262066,1123.2,17.3
+Antwerpen FR10,194.69270982262066,,
+Antwerpen Scheldelaan,195.71798433263984,1189.9,16.4
+Antwerpen Scheldelaan,195.71798433263984,,
+Leuven - Jan Vranckxpad,196.04840823709716,,
+Leuven - Jan Vranckxpad,196.04840823709716,1444.7,13.6
+Kortenberg F3 Het Heuveling,196.11478409701206,624.9,31.4
+Kortenberg F3 Het Heuveling,196.11478409701206,,
+Antwerpen - Binnensingel Oost (Posthofbrug),196.37958494139752,,
+Antwerpen - Binnensingel Oost (Posthofbrug),196.37958494139752,1078.1,18.2
+Damme F310 Damse Vaart-Noord,196.87144265883086,,
+Damme F310 Damse Vaart-Noord,196.87144265883086,509.5,38.6
+Maasmechelen - Monnikhof,197.23027769099056,,
+Maasmechelen - Monnikhof,197.23027769099056,265.9,74.2
+Antwerpen - Stadspark,197.35548694607644,1878.1,10.5
+Antwerpen - Stadspark,197.35548694607644,,
+Antwerpen - Desguinlei (Zuid),199.5725212169186,1902.0,10.5
+Antwerpen - Desguinlei (Zuid),199.5725212169186,,
+Antwerpen - Brouwersvliet,200.97496372767858,526.4,38.2
+Antwerpen - Brouwersvliet,200.97496372767858,,
+Hasselt Spoorwegbrug F74 Kuringen,206.4434281746319,,
+Hasselt Spoorwegbrug F74 Kuringen,206.4434281746319,822.2,25.1
+Antwerpen - Binnensingel West (Uitbreidingsstraat),207.85555793371532,1645.2,12.6
+Antwerpen - Binnensingel West (Uitbreidingsstraat),207.85555793371532,,
+Roeselare F32,208.0332638888889,,
+Roeselare F32,208.0332638888889,1313.7,15.8
+Antwerpen - Ruggeveldlaan,208.04553429564183,,
+Antwerpen - Ruggeveldlaan,208.04553429564183,1319.4,15.8
+Herentals F105 fietsbrug Kleine Nete,210.1383039153989,,
+Herentals F105 fietsbrug Kleine Nete,210.1383039153989,700.1,30.0
+Westerlo - de Merodedreef (Oost),211.01358353766986,,
+Westerlo - de Merodedreef (Oost),211.01358353766986,826.0,25.5
+F75 Genk De Bevoo,216.29359096313453,549.3,39.4
+F75 Genk De Bevoo,216.29359096313453,,
+Herentals F105 Koulaak,217.1667928248986,,
+Herentals F105 Koulaak,217.1667928248986,604.2,35.9
+Antwerpen FR10 nabij Jan Van Rijswijcklaan,217.51410358588964,766.0,28.4
+Antwerpen FR10 nabij Jan Van Rijswijcklaan,217.51410358588964,,
+Zonhoven - Wagemanskeel,217.7137007708734,209.9,103.7
+Zonhoven - Wagemanskeel,217.7137007708734,,
+Grobbendonk F5 Jaagpad Albertkanaal,218.95982013512585,,
+Grobbendonk F5 Jaagpad Albertkanaal,218.95982013512585,779.3,28.1
+Brugge - Dudzeelse Steenweg (West),221.5589976344806,,
+Brugge - Dudzeelse Steenweg (West),221.5589976344806,489.8,45.2
+Geel F105 nabij Rauwelkoven,222.6612028865539,,
+Geel F105 nabij Rauwelkoven,222.6612028865539,782.8,28.4
+Westmalle - Abdij Westmalle,222.8994064533159,,
+Westmalle - Abdij Westmalle,222.8994064533159,955.0,23.3
+Kapellen F14 Georges Spelierlaan,225.13497351842008,,
+Kapellen F14 Georges Spelierlaan,225.13497351842008,920.3,24.5
+Antwerpen - Schijnpoortweg,228.84479751236555,,
+Antwerpen - Schijnpoortweg,228.84479751236555,1860.0,12.3
+Antwerpen - Statielei,231.52224792351632,1570.0,14.7
+Antwerpen - Statielei,231.52224792351632,,
+Ruisbroek F20 Vaartkant-Oost,233.5010918755735,1016.4,23.0
+Ruisbroek F20 Vaartkant-Oost,233.5010918755735,,
+F75 Genk Stadion,233.79826702743563,,
+F75 Genk Stadion,233.79826702743563,529.2,44.2
+Hasselt F70 Provinciehuis,233.81186933415725,,
+Hasselt F70 Provinciehuis,233.81186933415725,853.3,27.4
+Turnhout F15 Jaagpad Kanaal Dessel-Schoten,237.25554697139543,1027.6,23.1
+Turnhout F15 Jaagpad Kanaal Dessel-Schoten,237.25554697139543,,
+De Pinte - Trekweg,239.97655798350084,,
+De Pinte - Trekweg,239.97655798350084,757.9,31.7
+Sint-Niklaas F4 Westerplein,241.62780673969198,1249.4,19.3
+Sint-Niklaas F4 Westerplein,241.62780673969198,,
+Kasterlee - Oudemolsedijk,242.644803603735,,
+Kasterlee - Oudemolsedijk,242.644803603735,496.9,48.8
+Tervuren F29 Vierarmen,246.6326709367272,502.6,49.1
+Tervuren F29 Vierarmen,246.6326709367272,,
+Deinze F7 Volderstraat,247.82945326487044,,
+Deinze F7 Volderstraat,247.82945326487044,1335.0,18.6
+Houthalen-Helchteren F74/F75 De Standaard,249.8255737336762,,
+Houthalen-Helchteren F74/F75 De Standaard,249.8255737336762,733.9,34.0
+Gent F7 Parkbosbrug,255.70303998076872,,
+Gent F7 Parkbosbrug,255.70303998076872,1226.4,20.9
+Heusden-Zolder F5 Circuit Zolder,258.0919611052678,851.5,30.3
+Heusden-Zolder F5 Circuit Zolder,258.0919611052678,,
+Stokkem - Medaerstraat,260.27582181443626,,
+Stokkem - Medaerstraat,260.27582181443626,181.3,143.6
+Leuven - Tiensevest,262.2167343565754,2358.1,11.1
+Leuven - Tiensevest,262.2167343565754,,
+Sint-Gillis-Waas F411 Maatweg,262.68579887218044,655.2,40.1
+Sint-Gillis-Waas F411 Maatweg,262.68579887218044,,
+Herentals - Herenthoutseweg (West),264.9450547154424,1280.0,20.7
+Herentals - Herenthoutseweg (West),264.9450547154424,,
+De Haan - Driftweg,265.3551969737448,1027.6,25.8
+De Haan - Driftweg,265.3551969737448,,
+Roeselare F361,268.09576923076924,,
+Roeselare F361,268.09576923076924,1534.8,17.5
+Lommel - Vossemeren,272.69243706394013,250.7,108.8
+Lommel - Vossemeren,272.69243706394013,,
+Nieuwpoort - Kaai (Oost),279.10434102739293,,
+Nieuwpoort - Kaai (Oost),279.10434102739293,1051.3,26.5
+Leuven - Schapenstraat,280.7280452764401,2430.7,11.5
+Leuven - Schapenstraat,280.7280452764401,,
+Antwerpen - Stenenbrug,285.11103188946663,,
+Antwerpen - Stenenbrug,285.11103188946663,2654.7,10.7
+Leuven F8 Zijpstraat,286.5089714892415,,
+Leuven F8 Zijpstraat,286.5089714892415,970.4,29.5
+Antwerpen - Slachthuislaan (Oost),286.99468816458557,,
+Antwerpen - Slachthuislaan (Oost),286.99468816458557,1395.2,20.6
+Lier F17 Jaagpad Nete nabij PIME,287.1115215320584,800.6,35.9
+Lier F17 Jaagpad Nete nabij PIME,287.1115215320584,,
+Antwerpen - Noorderlaanbrug,292.75238546899243,,
+Antwerpen - Noorderlaanbrug,292.75238546899243,2021.6,14.5
+Antwerpen - Desguinlei (Noord),293.4448307557978,713.0,41.2
+Antwerpen - Desguinlei (Noord),293.4448307557978,,
+Herentals - Herenthoutseweg (Oost),293.98123837937135,,
+Herentals - Herenthoutseweg (Oost),293.98123837937135,1447.8,20.3
+Leuven F3 Brampad,295.19356912247,,
+Leuven F3 Brampad,295.19356912247,1308.4,22.6
+Hasselt - Kempische Brug (Oost),296.1774300059342,1912.0,15.5
+Hasselt - Kempische Brug (Oost),296.1774300059342,,
+Gent F400 Alice Béviairepad,298.13118635852356,1737.8,17.2
+Gent F400 Alice Béviairepad,298.13118635852356,,
+Maasmechelen F75 Steenweg naar As,307.0789841113407,660.5,46.5
+Maasmechelen F75 Steenweg naar As,307.0789841113407,,
+Rotselaar - Demerdijk,307.8961440832133,,
+Rotselaar - Demerdijk,307.8961440832133,801.8,38.4
+Maaseik - Leeuwerikstraat,308.0882209435901,,
+Maaseik - Leeuwerikstraat,308.0882209435901,218.8,140.8
+Wetteren - Fietsbrug Scheldekaai,310.5430080491042,,
+Wetteren - Fietsbrug Scheldekaai,310.5430080491042,1500.5,20.7
+Kortrijk F45 Kapel ter Bede,313.58806047537604,1474.6,21.3
+Kortrijk F45 Kapel ter Bede,313.58806047537604,,
+Kapellen - F14 - Vloeiende,328.2823828255078,1374.5,23.9
+Kapellen - F14 - Vloeiende,328.2823828255078,,
+Willebroek F13 Fietsostradeknooppunt,329.11936883677197,1725.7,19.1
+Willebroek F13 Fietsostradeknooppunt,329.11936883677197,,
+Pelt F71/F74 Skiffel,334.3504256782051,1306.4,25.6
+Pelt F71/F74 Skiffel,334.3504256782051,,
+Gent Dampoort 1,335.0729749825782,3352.0,10.0
+Gent Dampoort 1,335.0729749825782,,
+Hasselt F72/F702 De Langeman,339.57132474643265,,
+Hasselt F72/F702 De Langeman,339.57132474643265,1304.4,26.0
+Mechelen F1 Caputsteen,345.3898929134552,,
+Mechelen F1 Caputsteen,345.3898929134552,1479.1,23.4
+Hasselt F5 Nijverheidskaai,350.6955609853193,1011.0,34.7
+Hasselt F5 Nijverheidskaai,350.6955609853193,,
+Dendermonde - Martelarenlaan (Oost),352.89995320080374,,
+Dendermonde - Martelarenlaan (Oost),352.89995320080374,1585.4,22.3
+Lokeren F4 Durmebrug,362.5722818892246,,
+Lokeren F4 Durmebrug,362.5722818892246,1674.3,21.7
+Antwerpen - Gerard Le Grellelaan,362.98100320487697,1060.2,34.2
+Antwerpen - Gerard Le Grellelaan,362.98100320487697,,
+Hasselt - Guldensporenplein,364.7282224164189,1962.0,18.6
+Hasselt - Guldensporenplein,364.7282224164189,,
+Wevelgem F371 Trakelweg,367.65099636467926,1332.2,27.6
+Wevelgem F371 Trakelweg,367.65099636467926,,
+Zemst F1 Brusselsesteenweg nabij E19,370.42350079144586,1612.6,23.0
+Zemst F1 Brusselsesteenweg nabij E19,370.42350079144586,,
+Bierbeek F24 Sint-Kamillus,374.56849315676783,,
+Bierbeek F24 Sint-Kamillus,374.56849315676783,789.2,47.5
+Antwerpen - Zurenborgbrug,379.43387728480343,1543.1,24.6
+Antwerpen - Zurenborgbrug,379.43387728480343,,
+Boechout F11 Victor Heylenlei,382.89952446013547,,
+Boechout F11 Victor Heylenlei,382.89952446013547,1351.0,28.3
+Hasselt - Kempische Brug (West),389.8845522833307,2017.6,19.3
+Hasselt - Kempische Brug (West),389.8845522833307,,
+Antwerpen - Jan Van Rijswijcklaan,390.0894395765874,,
+Antwerpen - Jan Van Rijswijcklaan,390.0894395765874,1798.0,21.7
+Leuven - Duitse brug,420.3406913392156,2298.2,18.3
+Leuven - Duitse brug,420.3406913392156,,
+Antwerpen - Italiëlei (Oost),423.7879161809431,,
+Antwerpen - Italiëlei (Oost),423.7879161809431,2111.3,20.1
+Mechelen - Blauwe bruggen,435.5479470637121,1399.9,31.1
+Mechelen - Blauwe bruggen,435.5479470637121,,
+Antwerpen FR10 nabij Luitenant Lippenslaan,445.00965905935027,,
+Antwerpen FR10 nabij Luitenant Lippenslaan,445.00965905935027,2802.0,15.9
+Hove F1 Edegemsestraat,446.287083927702,,
+Hove F1 Edegemsestraat,446.287083927702,2051.9,21.8
+Leuven F25 Brugbergpad,450.3800563963293,,
+Leuven F25 Brugbergpad,450.3800563963293,2962.4,15.2
+Leuven F24 Martelarenlaan,461.6513107542724,4388.7,10.5
+Leuven F24 Martelarenlaan,461.6513107542724,,
+Leuven F24 Stoemperspad,488.14408442380017,,
+Leuven F24 Stoemperspad,488.14408442380017,2849.8,17.1
+Antwerpen - Italiëlei (West),506.0875636980055,,
+Antwerpen - Italiëlei (West),506.0875636980055,2391.8,21.2
+Gent Dampoort station,507.6269191979176,,
+Gent Dampoort station,507.6269191979176,5946.9,8.5
+Antwerpen - Amsterdamstraat,523.5828783420629,,
+Antwerpen - Amsterdamstraat,523.5828783420629,2036.3,25.7
+Mechelen - Brusselsepoortstraat,532.319249650087,3029.3,17.6
+Mechelen - Brusselsepoortstraat,532.319249650087,,
+Leuven F8 Redersstraat,536.1556695318412,4409.8,12.2
+Leuven F8 Redersstraat,536.1556695318412,,
+Antwerpen - Kolonel Silvertopstraat,539.0068591809054,,
+Antwerpen - Kolonel Silvertopstraat,539.0068591809054,2866.0,18.8
+Nieuwpoort - Sluizen,567.5178228035185,2163.7,26.2
+Nieuwpoort - Sluizen,567.5178228035185,,
+Kortrijk F361 Budastraat,617.585932114422,3936.5,15.7
+Kortrijk F361 Budastraat,617.585932114422,,
+Gent - Marie Sassepad,655.2335923221563,4554.1,14.4
+Gent - Marie Sassepad,655.2335923221563,,
+Mechelen - Nekkerspoel voetgangersbrug,660.524904219479,,
+Mechelen - Nekkerspoel voetgangersbrug,660.524904219479,3749.4,17.6
+Duffel - Onze-Lieve-Vrouwlaan/Netebrug,669.0590835591136,,
+Duffel - Onze-Lieve-Vrouwlaan/Netebrug,669.0590835591136,3554.1,18.8
+Antwerpen FR10 Zurenborgbrug,675.3758001986315,2651.4,25.5
+Antwerpen FR10 Zurenborgbrug,675.3758001986315,,
+Antwerpen F1 Fietsbrug Berchem Station,683.9757531948196,,
+Antwerpen F1 Fietsbrug Berchem Station,683.9757531948196,3230.0,21.2
+Leuven - Vesaliusstraat,708.9507912165292,,
+Leuven - Vesaliusstraat,708.9507912165292,3816.3,18.6
+Antwerpen FR10 Ernest Van Dijckkaai,770.497102583999,4020.9,19.2
+Antwerpen FR10 Ernest Van Dijckkaai,770.497102583999,,
+Antwerpen - Mercatorstraat,814.1500582874321,,
+Antwerpen - Mercatorstraat,814.1500582874321,5785.5,14.1
+Gent - Louisa d'Havébrug,916.3061024497842,,
+Gent - Louisa d'Havébrug,916.3061024497842,6242.9,14.7
+Brugge F32 Passantenfietsbrug,918.175807241613,,
+Brugge F32 Passantenfietsbrug,918.175807241613,6354.1,14.5
+Mechelen - Neckerspoelstraat N15,929.9069875930795,2656.2,35.0
+Mechelen - Neckerspoelstraat N15,929.9069875930795,,
